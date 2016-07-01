@@ -4,6 +4,7 @@
   "private": "true",
   "dependencies": {
     "foundation": "zurb/bower-foundation",
-    "superslides": "^0.6.2"
+    "superslides": "^0.6.2",
+    "jquery": "2.2.4"
   }
 }
