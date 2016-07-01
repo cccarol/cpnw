@@ -1,0 +1,35 @@
+@import url("//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700");
+
+// Set font families
+$font-family--primary      : "Roboto", sans-serif;
+
+
+// Set font weights 
+$font-weight--xlight      : 100;
+$font-weight--light       : 300;
+$font-weight--normal      : 400;
+$font-weight--medium      : 500;
+$font-weight--bold        : 700;
+
+// Set color
+$black                    : #000000;
+$white                    : #ffffff;
+$blue					  : #007e8d;
+$grey-lt				  : #f4f4f4;
+$grey-dk				  : #3d3d3d;
+$grey 					  : #727272;
+
+
+// Set main colors
+$primary-color            : $blue;
+// $secondary-color       : $white;
+$body-font-color          : $grey-dk;
+
+// Set font size
+$base__font-size          : 15px;
+$base__line-height		  : 1.8;
+
+// Media Q helpers
+$break-tablet			  : 800px
+
+

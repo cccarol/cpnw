@@ -1,0 +1,33 @@
+.contact-cta {
+	background: url(../images/bg/contact-cta.jpg) no-repeat fixed center center;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	@media screen and (max-width: $break-tablet) {
+		background-attachment: scroll;
+	}
+
+	&:after {
+		@include image-overlay();
+	}
+
+	form {
+		max-width: 675px;
+		margin: 0 auto;
+
+		.columns {
+			@media screen and (min-width: $break-tablet) {
+				padding-right: 0;
+			}
+		}
+
+		textarea {
+			height:  158px;
+		}
+
+		.button {
+			display: inline-block;
+			width: auto;
+		}
+	}
+}
