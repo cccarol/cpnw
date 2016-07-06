@@ -22,18 +22,19 @@
 
               <nav class="utility">
                 <ul>
-                  <li><a href="inner.php">My Dashboard</a></li>
-                  <li><a href="#">Register</a></li>
+                  <li><a href="inner.php">Inner Template</a></li>
+                  <li><a href="dashboard.php">My Dashboard</a></li>
+                  <li><a href="register.php">Register</a></li>
                 </ul>
               </nav>
               <nav class="primary">
                 <ul>
                   <li><a href="#">About Us</a></li>
                   <li><a href="#">Our Consortium</a></li> 
-                  <li><a href="#">Placements</a></li> 
+                  <li><a href="placements.php">Placements</a></li> 
                   <li><a href="#">Our Members</a></li> 
-                  <li><a href="#">FAQs</a></li>
-                  <li><a href="#">News</a></li>
+                  <li><a href="faq.php">FAQs</a></li>
+                  <li><a href="news.php">News</a></li>
                 </ul>
               </nav>
             </div>

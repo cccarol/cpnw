@@ -20,8 +20,8 @@ $(function () {
 	//$('.fancybox').fancybox();
 
 	// Toggle Secondary Aside nav
-	$('.title').click(function(asideNav) {
-		asideNav.preventDefault();
+	$('.toggle .title').click(function(asideNavToggle) {
+		asideNavToggle.preventDefault();
 
 
 		var $this = $(this);

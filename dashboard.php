@@ -16,7 +16,7 @@
     <img src="images/content/heros/dashboard.jpg" />
       <div class="row">
         <div class="small-12 columns">
-          <h1>Inner Page Title</h1>
+          <h1>Dashboard</h1>
         </div>
     </div>
   </div>
@@ -26,80 +26,26 @@
   <div class="main">
     <div class="row">
       <div class="small-12 medium-3 columns">
-        <aside class="toggle">
-          <nav>
-            <ul>
-              <li><a class="title" href="">Aside Primary Nav</a>
-                <ul>
-                  <li><a href="">Aside Secondary Nav</a></li>
-                  <li><a class="selected" href="">Aside Secondary Nav </a></li>
-                </ul>
-              </li>
-              <li><a class="title" href="">Aside Primary Nav</a>
-                <ul>
-                  <li><a href="">Aside Secondary Nav</a></li>
-                  <li><a href="">Aside Secondary Nav</a></li>
-                </ul>
-              </li>
+        <aside>
 
-              
-            </ul>
-          </nav>
+          <?php include 'partials/asidenav-sample.php'; ?>
+          
         </aside>
       </div>
       <div class="small-12 medium-9 columns">
 
         <section>
 
-              <h1 class="line-after">H1 Header</h1>
+              <h1 class="line-after">Dashboard</h1>
               <p>
                 Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna.
               </p>
               <p>
                 Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna.
               </p>
-
-              <h2>H2 Header</h2>
               <p>
                 Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna.
               </p>
-
-              <h3>H3 Header</h3>
-              <h4>H4 Header</h4>
-              <h4 class="subheader">H4 Sub Header</h4>
-              <hr class="short"/>
-              <table>
-                <tr>
-                  <th>T Header</th>
-                  <th>T Header</th>
-                  <th>T Header</th>
-                  <th>T Header</th>
-                </tr>
-                <tr>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                </tr>
-                <tr>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                </tr>
-                <tr>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                </tr>
-
-              </table>
-
-              <hr />
-              <a class="button">Button Link</a>
-              <a class="button button-outline">Button Link Outline</a>
-
 
 
 

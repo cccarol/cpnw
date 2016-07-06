@@ -26,23 +26,47 @@
   <div class="main">
     <div class="row">
       <div class="small-12 medium-3 columns">
-        <aside class="toggle">
+        <aside>
           <nav>
             <ul>
-              <li><a class="title" href="">Aside Primary Nav</a>
+              <li><a class="title" href="">Clinical Prerequisites</a>
                 <ul>
-                  <li><a href="">Aside Secondary Nav</a></li>
-                  <li><a class="selected" href="">Aside Secondary Nav </a></li>
+                  <li><a href="">Health + Safety </a></li>
+                  <li><a class="selected" href="">eLearning </a></li>
                 </ul>
               </li>
-              <li><a class="title" href="">Aside Primary Nav</a>
+              <li><a class="title selected" href="">My Account</a>
                 <ul>
-                  <li><a href="">Aside Secondary Nav</a></li>
-                  <li><a href="">Aside Secondary Nav</a></li>
+                  <li><a href="">My Profile </a></li>
+                  <li><a href="">My Security Settings</a></li>
+                  <li><a href="">My Demographics</a></li>
                 </ul>
               </li>
 
-              
+              <li><a class="title" href="">Compliance Records</a>
+                <ul>
+                  <li><a href="">Annual Requirements </a></li>
+                  <li><a href="">One-Time Requirements</a></li>
+                  <li><a href="">eLearning Requirements</a></li>
+                </ul>
+              </li>
+
+              <li><a class="title" href="">Members</a>
+                <ul>
+                  <li><a href="">Meetings </a></li>
+                  <li><a href="">Documents</a></li>
+                  <li><a href="">Coordinators</a></li>
+                </ul>
+              </li>
+
+              <li><a class="title" href="">User Admin</a>
+                <ul>
+                  <li><a href="">Users </a></li>
+                  <li><a href="">Reports</a></li>
+                  <li><a href="">Account Requests</a></li>
+                  <li><a href="">Inactive Users</a></li>
+                </ul>
+              </li>
             </ul>
           </nav>
         </aside>
@@ -51,55 +75,16 @@
 
         <section>
 
-              <h1 class="line-after">H1 Header</h1>
+              <h1 class="line-after">Dashboard</h1>
               <p>
                 Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna.
               </p>
               <p>
                 Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna.
               </p>
-
-              <h2>H2 Header</h2>
               <p>
                 Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna.
               </p>
-
-              <h3>H3 Header</h3>
-              <h4>H4 Header</h4>
-              <h4 class="subheader">H4 Sub Header</h4>
-              <hr class="short"/>
-              <table>
-                <tr>
-                  <th>T Header</th>
-                  <th>T Header</th>
-                  <th>T Header</th>
-                  <th>T Header</th>
-                </tr>
-                <tr>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                </tr>
-                <tr>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                </tr>
-                <tr>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                  <td>Cell</td>
-                </tr>
-
-              </table>
-
-              <hr />
-              <a class="button">Button Link</a>
-              <a class="button button-outline">Button Link Outline</a>
-
 
 
 

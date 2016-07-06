@@ -18,16 +18,18 @@ $blue					  : #007e8d;
 $grey-lt				  : #f4f4f4;
 $grey-dk				  : #3d3d3d;
 $grey 					  : #727272;
+$grey-lt2				  : #dddddd;
+$brown 					  : #aa9b73;
 
 
 // Set main colors
 $primary-color            : $blue;
-// $secondary-color       : $white;
+$secondary-color       	  : $brown;
 $body-font-color          : $grey-dk;
 
 // Set font size
-$base__font-size          : 15px;
-$base__line-height		  : 1.8;
+$base__font-size          : 14px;
+$base__line-height		  : 1.7;
 
 // Media Q helpers
 $break-tablet			  : 800px
