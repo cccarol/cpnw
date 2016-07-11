@@ -12,9 +12,9 @@
               <li class="accordion-navigation">
                 <a class="title" href="#my_account" aria-expanded="false">My Account</a>
                 <ul id="my_account" class="content">
-                  <li><a href="">My Profile </a></li>
-                  <li><a href="">My Security Settings</a></li>
-                  <li><a href="">My Demographics</a></li>
+                  <li><a href="profile.php">My Profile </a></li>
+                  <li><a href="mysecuritysettings.php">My Security Settings</a></li>
+                  <li><a href="mydemographics.php">My Demographics</a></li>
                 </ul>
               </li>
 
@@ -42,7 +42,7 @@
                   <li><a href="">Users </a></li>
                   <li><a href="">Reports</a></li>
                   <li><a href="">Account Requests</a></li>
-                  <li><a href="">Inactive Users</a></li>
+                  <li><a href="inactive.php">Inactive Users</a></li>
                 </ul>
               </li>
             </ul>

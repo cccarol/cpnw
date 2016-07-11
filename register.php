@@ -35,7 +35,9 @@
               <div class="small-12 medium-5 columns">
                 <h3>Register</h3>
                   <form action="register-2.php">
-                    <input placeholder="Access Code *" />
+                    <label>
+                    <input placeholder="Access Code *" required /></label>
+                    <small class="error">error message</small>
                     <input placeholder="Email *" />
                     <input placeholder="Password *" />
                     <input placeholder="Confirm Password *" />
@@ -46,6 +48,15 @@
                     <select name="">
                       <option selected disabled value="">Authentication code delivery preference</option>
                     </select>
+
+
+
+                    <div class="form-caption">
+                    <p>By clicking Create Account you indicate you have read and agree to the<a href="~/Views/Home/Terms.cshtml"> CPNW Terms of Use</a> and <a href="~/Views/Home/PrivacyPolicy.cshtml"> Privacy Policy</a>.</p>
+                  </div>
+
+
+
 
                     <input type="submit" value="Create Account" class="button">
 
