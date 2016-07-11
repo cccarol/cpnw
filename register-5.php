@@ -17,23 +17,21 @@
     <div class="row">
       <div class="small-12">
         
-
         <section>
-
-           <h1 class="line-after text-center">Next Step</h1>
-
+           <h1 class="line-after">Register</h1>
            <div class="row">
-              <div class="small-12 medium-7 medium-centered columns">
-                <h5 class="text-center">To continue the registration process please check your email account for a confirmation message. </h5>
-
-              <h5 class="text-center">Check your junk mail folder, if you do not see the email.</h5>
-
-              <p class="text-center"><a href="register-3.php" class="button">Continue to Login</a></p>
-
-
-             
+              <div class="small-12 medium-7 columns">
+                <h2>Send Verification Code</h2>
+                  <form action="register-6.php">
+                    <input placeholder="Email *" />
+                    <input placeholder="Password *" />
+                    <input type="submit" value="Login" class="button">
+                  </form>
+              </div>
+              <div class="small-12 medium-5 columns">
             
-           </div>
+
+              </div>
            </div>
 
 

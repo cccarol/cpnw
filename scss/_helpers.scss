@@ -80,6 +80,10 @@
 	background: $grey-lt;
 }
 
+.bg-primary {
+    background: $primary-color;
+}
+
 .mobile-block {
     @media screen and (max-width: 768px) {
         display: block;

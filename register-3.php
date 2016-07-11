@@ -16,102 +16,23 @@
   <div class="main">
     <div class="row">
       <div class="small-12">
-        
 
         <section>
+           <h1 class="line-after text-center">Email Confirmed</h1>
+           <div class="row">
+              <div class="small-12 medium-7 medium-centered columns">
+                <h5 class="text-center">Thank you confirming your email.</h5>
 
-           <h1 class="line-after">Personal Information</h1>
+              <h5 class="text-center">Please use the link below to log into CPNW and complete your registration.</h5>
 
-            <form action="">
-              <div class="row">
-                <div class="small-12 medium-5 columns">
-                  <input placeholder="First Name *" />
-                </div>
-                <div class="small-12 medium-5 columns">
-                  <input placeholder="Last Name *" />
-                </div>
-                <div class="small-12 medium-2 columns">
-                  <input placeholder="MI" />
-                </div>
-              </div>
-
-
-              <div class="row">
-                <div class="small-12 medium-6 columns">
-                  <input placeholder="Email *" />
-                </div>
-                <div class="small-12 medium-6 columns">
-                  <input placeholder="Alternative Email" />
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="small-12 medium-3 columns">
-                  <input placeholder="Home Phone *" />
-                </div>
-                <div class="small-12 medium-3 columns">
-                  <input placeholder="Birthday *" />
-                </div>
-                <div class="small-12 medium-3 columns">
-                  <input placeholder="Student ID *" />
-                </div>
-                <div class="small-12 medium-3 columns">
-                   <select name="">
-                      <option selected disabled value="">Progress</option>
-                    </select>
-                </div>
-              </div>
-
-
-              <div class="row">
-                <div class="small-12 medium-4 columns">
-                  <input placeholder="Address *" />
-                </div>
-                <div class="small-12 medium-4 columns">
-                  <input placeholder="City *" />
-                </div>
-                <div class="small-12 medium-2 columns">
-                  <input placeholder="State *" />
-                </div>
-                <div class="small-12 medium-2 columns">
-                   <input placeholder="ZIP *" />
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="small-12 medium-6 columns">
-                  <input placeholder="Emergency Contact Name *" />
-                </div>
-                <div class="small-12 medium-6 columns">
-                  <input placeholder="Emergency Contact Phone *" />
-                </div>
-              </div>
-
-
-
-
-                    <input type="submit" value="Create Account" class="button">
-
-                
-
-                  
-
-              </div>
+              <p class="text-center"><a href="register-4.php" class="button">Comlpete Registration</a></p>
            </div>
-
-           </form>
-
-
-        
+           </div>
           </section>
-
         </div>
 
-
       </div>
-
       <?php include 'partials/contact-form.php'; ?>
-
 
     </div>
     <!-- /main -->

@@ -37,7 +37,7 @@ a img {
 // Font 
 
 h1, h2, h3, h4, h5, p {
-    margin: 0 0 20px;    
+    margin: 0 0 30px;    
 }
 
 p, ul, ol {
@@ -53,23 +53,6 @@ h1, h2, h3, h4, h5 {
 h1 {  
     font-size: 35px;
     color: $primary-color;
-
-    &.line-after {
-        &:after {
-            content: '';
-            display: block;
-            margin: 15px 0 40px;
-            height: 1px;
-            width: 150px;
-            background: $primary-color;
-        }
-
-        &.text-center {
-            &:after {
-                margin: 10px auto;
-            }
-        }
-    }
 }
 
 h2 {
@@ -78,9 +61,6 @@ h2 {
 
 h3 {
     font-size: 20px;
-
-   
-
 }
 
 h4 {
@@ -93,6 +73,45 @@ h4 {
     }
 }
 
+.line-after {
+    &:after {
+        content: '';
+        display: block;
+        margin: 15px 0 40px;
+        height: 1px;
+        width: 150px;
+        background: $primary-color;
+    }
+
+    &.text-center {
+        &:after {
+            margin: 10px auto;
+        }
+    }
+}
+
+
+.line-before {
+    &:before {
+        content: '';
+        display: block;
+        margin: 15px 0 40px;
+        height: 1px;
+        width: 150px;
+        background: $primary-color;
+    }
+
+    &.text-center {
+        &:before {
+            margin: 10px auto;
+        }
+    }
+}
+
+
+strong {
+    color: $primary-color;
+}
 
 ul, ol {
     padding-left: 20px;
@@ -335,6 +354,13 @@ aside {
                 margin: 0;
                 padding: 0;
 
+                &.accordion-navigation {
+
+                    a{
+                        background: none !important;
+                    }
+                }
+
                 a {
                     font-size:14px;
                     padding: 10px 0;
@@ -386,6 +412,19 @@ aside {
         }
     }
 
+}
+
+
+
+// Foundation Edits . 
+
+.accordion {
+    .accordion-navigation {
+        a {
+            background: none;
+            color: $primary-color;
+        }
+    }
 }
 
 

@@ -1,0 +1,21 @@
+.member-item {
+	margin: 0 0 30px;
+
+	a {
+		display: block;
+
+		&:hover {
+			img {
+				opacity: .9;
+			}
+		}
+	}
+
+	h3 {
+		margin-top:  20px;
+	}
+
+	p {
+		color: $grey;
+	}
+}

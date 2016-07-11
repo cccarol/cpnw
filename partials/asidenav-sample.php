@@ -1,40 +1,44 @@
 
 <?php ?>
-
-          <nav class="toggle">
-            <ul>
-              <li><a class="title" href="">Clinical Prerequisites</a>
-                <ul>
+          <nav>
+            <ul class="accordion" data-accordion="">
+              <li class="accordion-navigation">
+                <a class="title" href="#clinical_prerequisites" aria-expanded="false">Clinical Prerequisites</a>
+                  <ul id="clinical_prerequisites" class="content">
                   <li><a href="">Health + Safety </a></li>
                   <li><a href="elearning.php">eLearning </a></li>
                 </ul>
               </li>
-              <li><a class="title selected" href="">My Account</a>
-                <ul>
+              <li class="accordion-navigation">
+                <a class="title" href="#my_account" aria-expanded="false">My Account</a>
+                <ul id="my_account" class="content">
                   <li><a href="">My Profile </a></li>
                   <li><a href="">My Security Settings</a></li>
                   <li><a href="">My Demographics</a></li>
                 </ul>
               </li>
 
-              <li><a class="title" href="">Compliance Records</a>
-                <ul>
+              <li class="accordion-navigation">
+                <a class="title" href="#compliance_records" aria-expanded="false">Compliance Records</a>
+                <ul id="compliance_records" class="content">
                   <li><a href="">Annual Requirements </a></li>
                   <li><a href="">One-Time Requirements</a></li>
                   <li><a href="">eLearning Requirements</a></li>
                 </ul>
               </li>
 
-              <li><a class="title" href="">Members</a>
-                <ul>
+              <li class="accordion-navigation">
+                <a class="title" href="#members" aria-expanded="false">Members</a>
+                <ul id="members" class="content">
                   <li><a href="">Meetings </a></li>
                   <li><a href="">Documents</a></li>
                   <li><a href="">Coordinators</a></li>
                 </ul>
               </li>
 
-              <li><a class="title" href="">User Admin</a>
-                <ul>
+              <li class="accordion-navigation">
+                <a class="title" href="#user_admin" aria-expanded="false">User Admin</a>
+                <ul class="content" id="user_admin">
                   <li><a href="">Users </a></li>
                   <li><a href="">Reports</a></li>
                   <li><a href="">Account Requests</a></li>

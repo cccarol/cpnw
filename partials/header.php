@@ -29,10 +29,10 @@
               </nav>
               <nav class="primary">
                 <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Our Consortium</a></li> 
+                  <li><a href="about.php">About Us</a></li>
+                  <li><a href="our-consortium.php">Our Consortium</a></li> 
                   <li><a href="placements.php">Placements</a></li> 
-                  <li><a href="#">Our Members</a></li> 
+                  <li><a href="our-members.php">Our Members</a></li> 
                   <li><a href="faq.php">FAQs</a></li>
                   <li><a href="news.php">News</a></li>
                 </ul>
