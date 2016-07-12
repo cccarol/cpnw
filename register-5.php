@@ -15,17 +15,18 @@
 
   <div class="main">
     <div class="row">
-      <div class="small-12">
+      <div class="small-12 columns">
         
         <section>
-           <h1 class="line-after">Register</h1>
            <div class="row">
               <div class="small-12 medium-7 columns">
                 <h2>Send Verification Code</h2>
                   <form action="register-6.php">
-                    <input placeholder="Email *" />
-                    <input placeholder="Password *" />
-                    <input type="submit" value="Login" class="button">
+                    <label>Select where you would like the verification code sent</label>
+                    <select>
+                      <option>Please Select</option>
+                      </select>
+                    <input type="submit" value="Submit" class="button">
                   </form>
               </div>
               <div class="small-12 medium-5 columns">

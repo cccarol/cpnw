@@ -15,7 +15,7 @@
 
   <div class="main">
     <div class="row">
-      <div class="small-12">
+      <div class="small-12 columns">
 
         <section>
            <h1 class="line-after text-center">Email Confirmed</h1>

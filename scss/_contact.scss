@@ -2,7 +2,7 @@
 	background: url(../images/bg/contact-cta.jpg) no-repeat fixed center center;
 	background-size: 100% 100%;
 	width: 100%;
-	height: 100%;
+	height: auto;
 	@media screen and (max-width: $break-tablet) {
 		background-attachment: scroll;
 	}

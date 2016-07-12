@@ -30,7 +30,7 @@
               <li class="accordion-navigation">
                 <a class="title" href="#members" aria-expanded="false">Members</a>
                 <ul id="members" class="content">
-                  <li><a href="">Meetings </a></li>
+                  <li><a href="meetings.php">Meetings </a></li>
                   <li><a href="">Documents</a></li>
                   <li><a href="">Coordinators</a></li>
                 </ul>

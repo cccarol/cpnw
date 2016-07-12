@@ -82,6 +82,12 @@ h4 {
     }
 }
 
+h5 {
+    font-size: 16px;
+    font-weight: $font-weight--normal;
+    margin: 0;
+}
+
 .line-after {
     &:after {
         content: '';
@@ -172,6 +178,12 @@ a {
     &:hover {
         color: $brown;
     }
+
+    &.text-brown {
+        &:hover {
+            color: $primary-color;
+        }
+    }
 }
 
 hr {
@@ -180,6 +192,19 @@ hr {
     &.short {
         width: 150px;
         display: inline-block;
+    }
+}
+
+.left-line {
+    padding-left: 60px;
+    margin-left: 30px;
+    border-left: 1px solid $grey-lt2;
+
+    @media screen and (max-width: 641px) {
+        padding: 30px 0 0 0;
+        margin: 30px 0 0;
+        border: none;
+        border-top: 1px solid $grey-lt2;
     }
 }
 
