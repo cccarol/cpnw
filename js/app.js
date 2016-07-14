@@ -19,25 +19,6 @@ $(function () {
 	//Initialize fancybox
 	//$('.fancybox').fancybox();
 
-	// Toggle Secondary Aside nav
-	$('.toggle .title').click(function(asideNavToggle) {
-		asideNavToggle.preventDefault();
-
-
-		var $this = $(this);
-
-		if ($this.next().hasClass('show')) {
-			$this.next().removeClass('show');
-			$this.next().slideUp(350);
-		} else {
-			$this.parent().parent().find('aside ul ul').removeClass('show');
-			$this.parent().parent().find('aside ul ul').slideUp(350);
-			$this.next().toggleClass('show');
-			$this.next().slideToggle(350);
-		}
-	});
-
-
 
 })
 
@@ -56,8 +37,9 @@ function HeaderBackground() {
 	$(window).scroll(function() {    
 		var scroll = $(window).scrollTop();
 
-		if (scroll >= $("#slides").height()) {
+		if (scroll >= $("#slides").height() - 100) {
 			$("header").addClass("hbg");
+			$(".logo img").attr('src', 'images/logo.svg');
 		} else {
 			$("header").removeClass("hbg");
 		}
@@ -70,7 +52,7 @@ function HeaderBackground() {
 function SliderBg() {
 	$(window).scroll(function() {    
 		var scroll = $(window).scrollTop();
-		if (scroll >= $("#slides").height()) {
+		if (scroll >= $("#slides").height() - 100) {
 			$(".logo img").attr('src', 'images/logo.svg');
 		} else {
 			$(".logo img").attr('src', 'images/logo-white.svg');

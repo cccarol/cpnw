@@ -34,7 +34,6 @@
                   <li><a href="placements.php">Placements</a></li> 
                   <li><a href="our-members.php">Our Members</a></li> 
                   <li><a href="faq.php">FAQs</a></li>
-                  <li><a href="news.php">News</a></li>
                 </ul>
               </nav>
             </div>
