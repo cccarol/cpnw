@@ -18,4 +18,49 @@
 	p {
 		color: $grey;
 	}
+
+	&.team-item {
+		a {
+			position: relative;
+
+			.overlay {
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				opacity: 0;
+				height: 100%; 
+				transition: all .5s;
+				background: rgba($primary-color, .8);
+
+				.fa {
+					color: $white;
+					text-align: center;
+					display: block;
+					@include vertical-align();
+					font-size: 30px;
+					opacity: .8;
+
+					&:before {
+						border: 1px solid $white;
+						border-radius: 100%;
+						padding: 20px;
+					}
+				}
+			}
+
+
+			&:hover {
+
+				.overlay {
+					opacity: 1;
+
+				}
+			}
+
+		}
+	}
 }
+

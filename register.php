@@ -36,9 +36,9 @@
                 <h3>Register</h3>
                   <form action="register-2.php">
                     <label>
-                    <input placeholder="Access Code *" required /></label>
+                    <input placeholder="Access Code *" required aria-describedby="nameHelpText" data-tooltip aria-haspopup="true" class="has-tip" title="Access Code"/></label>
                     <small class="error">error message</small>
-                    <input placeholder="Email *" />
+                    <input placeholder="Email *" title="At least 10 characters including: upper and lowercase letters, a number and a special character."/>
                     <input placeholder="Password *" />
                     <input placeholder="Confirm Password *" />
                     <input placeholder="Text Phone (xxx)xxx-xxxx *" />
@@ -54,9 +54,6 @@
                     <div class="form-caption">
                     <p>By clicking Create Account you indicate you have read and agree to the<a href="~/Views/Home/Terms.cshtml"> CPNW Terms of Use</a> and <a href="~/Views/Home/PrivacyPolicy.cshtml"> Privacy Policy</a>.</p>
                   </div>
-
-
-
 
                     <input type="submit" value="Create Account" class="button">
 
@@ -93,10 +90,6 @@
 
 
 
-
-    <script type="text/javascript">
-
-    </script>
 
 
 

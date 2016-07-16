@@ -20,19 +20,16 @@
 
         <section>
 
-           <h1 class="line-after text-center">Next Step</h1>
+           <h1 class="line-after text-center">Account Request Submitted Confirmation</h1>
 
            <div class="row">
               <div class="small-12 medium-7 medium-centered columns">
-                <p class="text-center larger">To continue the registration process please check your email account for a confirmation message. </p>
+                <p class="text-center larger">Your account request to has been sent to your school's coordinator for review and approval. The coordinator will review the request to ensure it matches your enrollment records. Please allow 24 hours for you school to respond.  </p>
 
-              <p class="text-center larger">Check your junk mail folder, if you do not see the email.</p>
+              <p class="text-center larger">Check your email for further status updates.</p>
+                        
 
-              <p class="text-center"><a href="register-3.php" class="button">Continue to Login</a></p>
 
-
-             
-            
            </div>
            </div>
 

@@ -84,52 +84,7 @@
              </div>
 
 
-             <div class="row">
-              <div class="small-12 columns">
-                <hr />
-                <h2>eLearning Results</h2>
-                <ul class="inline-list">
-                  <li><strong>Results for</strong></li>
-                  <li>(username)</li>
-                  <li><strong>ID</strong></li>
-                  <li>(sid/eid)</li>
-                  <li><a href="" class="text-brown"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Results</a></li>
-                </ul>
-
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Subject</th>
-                      <th>Status</th>
-                      <th>Score</th>
-                      <th>Date</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Emergency Response Procedures</td>
-                      <td>Passed</td>
-                      <td>XXX</td>
-                      <td>00/00/00</td>
-                    </tr>
-                    <tr>
-                      <td>Emergency Response Procedures</td>
-                      <td>Passed</td>
-                      <td>XXX</td>
-                      <td>00/00/00</td>
-                    </tr>
-                    <tr>
-                      <td>Emergency Response Procedures</td>
-                      <td>Passed</td>
-                      <td>XXX</td>
-                      <td>00/00/00</td>
-                    </tr>
-                  </tbody>
-                </table>
-
-              </div>
-            </div>
-
+            
 
         </section>
 

@@ -23,7 +23,7 @@
                 <ul id="compliance_records" class="content">
                   <li><a href="">Annual Requirements </a></li>
                   <li><a href="">One-Time Requirements</a></li>
-                  <li><a href="">eLearning Requirements</a></li>
+                  <li><a href="elearning-req.php">eLearning Requirements</a></li>
                 </ul>
               </li>
 

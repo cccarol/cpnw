@@ -45,6 +45,12 @@ p, ul, ol {
     font-size: $base__font-size;
 }
 
+p {
+    &.larger {
+       font-size: 17px; 
+    }
+}
+
 .inline-list-icons {
     li {
         .fa {
@@ -519,6 +525,10 @@ aside {
 
 // Foundation Edits . 
 
+span.error, small.error {
+    font-style: normal;
+}
+
 .accordion {
     .accordion-navigation {
         a {
@@ -528,7 +538,7 @@ aside {
     }
 }
 
-
-
-
-
+.tooltip {
+    border:none;
+    font-size: 10px;
+}
