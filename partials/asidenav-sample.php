@@ -4,14 +4,14 @@
             <ul class="accordion" data-accordion="">
               <li class="accordion-navigation">
                 <a class="title" href="#clinical_prerequisites" aria-expanded="false">Clinical Prerequisites</a>
-                  <ul id="clinical_prerequisites" class="content">
+                  <ul id="clinical_prerequisites" class="content active">
                   <li><a href="">Health + Safety </a></li>
                   <li><a href="elearning.php">eLearning </a></li>
                 </ul>
               </li>
               <li class="accordion-navigation">
                 <a class="title" href="#my_account" aria-expanded="false">My Account</a>
-                <ul id="my_account" class="content">
+                <ul id="my_account" class="content active">
                   <li><a href="profile.php">My Profile </a></li>
                   <li><a href="mysecuritysettings.php">My Security Settings</a></li>
                   <li><a href="mydemographics.php">My Demographics</a></li>
@@ -20,7 +20,7 @@
 
               <li class="accordion-navigation">
                 <a class="title" href="#compliance_records" aria-expanded="false">Compliance Records</a>
-                <ul id="compliance_records" class="content">
+                <ul id="compliance_records" class="content active">
                   <li><a href="">Annual Requirements </a></li>
                   <li><a href="">One-Time Requirements</a></li>
                   <li><a href="elearning-req.php">eLearning Requirements</a></li>
@@ -29,7 +29,7 @@
 
               <li class="accordion-navigation">
                 <a class="title" href="#members" aria-expanded="false">Members</a>
-                <ul id="members" class="content">
+                <ul id="members" class="content active">
                   <li><a href="meetings.php">Meetings </a></li>
                   <li><a href="">Documents</a></li>
                   <li><a href="">Coordinators</a></li>
@@ -38,7 +38,7 @@
 
               <li class="accordion-navigation">
                 <a class="title" href="#user_admin" aria-expanded="false">User Admin</a>
-                <ul class="content" id="user_admin">
+                <ul class="content active" id="user_admin">
                   <li><a href="">Users </a></li>
                   <li><a href="">Reports</a></li>
                   <li><a href="">Account Requests</a></li>

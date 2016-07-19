@@ -543,6 +543,14 @@ span.error, small.error {
             background: none;
             color: $primary-color;
         }
+
+        ul {
+            li {
+                a {
+                    color: $grey;
+                }
+            }
+        }
     }
 }
 
