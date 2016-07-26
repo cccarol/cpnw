@@ -52,18 +52,17 @@
                             <field>  Hidden error message appears confirming college name </field>
                             <label>
                                 Enter Access Code:
-                                <input placeholder="Access Code *" required aria-describedby="nameHelpText" data-tooltip
-                                       aria-haspopup="true" class="has-tip" title="Access Code"/>
+                                <input placeholder="Access Code *" required/>
+                                <small class="error">error message</small>
                             </label>
-                            <small class="error">error message</small>
                             <label>
-                                <input placeholder="Email *"
-                                       title="At least 10 characters including: upper and lowercase letters, a number and a special character."/>
+                                <input placeholder="Email *" />
+                                <div class="form-caption"><p>At least 10 characters including: upper and lowercase letters, a number and a special character.</p></div>
                             </label>
-                            <small class="error">error message</small>
 
                             <label> Password:
                                 <input placeholder="Password *"/>
+                                <div class="form-caption"><p>At least 10 characters including: upper and lowercase letters, a number and a special character.</p></div>
                             </label>
                             <small class="error">error message</small>
                 <label>Confirm Password

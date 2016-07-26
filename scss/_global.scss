@@ -296,14 +296,12 @@ select::-ms-expand {
 
 .form-caption {
     font-size: 11px; 
-    padding: 0 0 20px;
+
     p {
      font-size: 11px; 
      padding: 10px 0;
      margin: 0;
     }
-    
-    
 }
 
 small {
@@ -409,7 +407,7 @@ fieldset {
     }
 
     @media screen and (max-width: $break-tablet) {
-        padding-top: 72px;
+        padding-top: 67px;
     }
 
 
@@ -419,9 +417,11 @@ fieldset {
         font-size: 36px;
         position: absolute;
         bottom: 20px;
+        margin: 0;
         @media screen and (max-width: $break-tablet) {
             font-size: 25px;
             left: 40px;
+            bottom: 10px;
         }
     }
 }
@@ -557,4 +557,7 @@ span.error, small.error {
 .tooltip {
     border:none;
     font-size: 10px;
+    @media screen and (max-width: $break-tablet) {
+
+    }
 }
